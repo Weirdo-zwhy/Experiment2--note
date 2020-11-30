@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        android:background="#673AB7">
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="52dp"
+            android:layout_height="53dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:scaleType="fitXY"
+            android:background="#673AB7"
+            android:src="@drawable/img_1" />
+
+        <TextView
+            android:id="@+id/mytitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="日记本"
+            android:textColor="#111212"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/commit"
+            android:layout_width="47dp"
+            android:layout_height="57dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:background="#673AB7"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_2" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
+
